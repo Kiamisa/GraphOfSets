@@ -1,61 +1,62 @@
-readme.so logo
-Seções
-Clique em uma seção abaixo para editar os conteúdos
+# Visualização de Grafos com Python
 
-Clique em uma seção abaixo para adicioná-la ao seu readme
-Editor
-Visualização de Grafos com JavaScript
+Este projeto demonstra a visualização de grafos utilizando **Python**, **HTML** e **JavaScript**. O sistema permite que os usuários interajam com representações gráficas de estruturas de dados, oferecendo uma forma visual de compreender como os grafos funcionam. Este projeto foi desenvolvido como parte da disciplina de **Estrutura de Dados Avançada** na **Universidade Estadual do Maranhão (UEMA)**.
 
-Este projeto demonstra o uso de um servidor local para visualizar a estrutura de um grafo usando JavaScript e HTML. Foi desenvolvido como parte da disciplina de Estrutura de Dados Avançada na Universidade Estadual do Maranhão (UEMA).
-🛠 Pré-requisitos
+## 🛠 Pré-requisitos
 
-Para executar este projeto, é necessário ter o Python instalado na sua máquina, pois o projeto usa o módulo http.server para rodar um servidor local. Também recomendamos o uso do Visual Studio Code (VSCode) como IDE.
-🚀 Como Executar
+Para executar este projeto, você precisa ter **Python** instalado em sua máquina. Recomendamos o uso do **Visual Studio Code (VSCode)** como IDE para facilitar o desenvolvimento e a execução.
+
+## 🚀 Como Executar
 
 Siga os passos abaixo para configurar e rodar o projeto:
-1. Abrir o Terminal no VSCode
 
-    No VSCode, vá para a aba superior e clique em:
-    Terminal -> Novo Terminal.
+### 1. Abrir o Terminal no VSCode
 
-2. Iniciar o Servidor Local
+- No VSCode, vá para a aba superior e clique em:  
+  **Terminal -> Novo Terminal**.
 
-    No terminal recém-aberto, execute o seguinte comando para iniciar um servidor local usando o Python:
+### 2. Iniciar o Servidor Local
 
-    python -m http.server
+- No terminal recém-aberto, execute o seguinte comando para iniciar um servidor local usando o Python:
 
-    O servidor usará a porta 8000 por padrão.
+  ```bash
+  python -m http.server
+  ```
 
-3. Acessar os Arquivos via Navegador
+- O servidor usará a porta **8000** por padrão.
 
-    Agora, você pode acessar os arquivos da pasta diretamente pelo navegador, usando o seguinte endereço padrão:
+### 3. Acessar os Arquivos via Navegador
 
-    http://localhost:8000/JS/Graph/nome_do_arquivo.extensão
+- Agora, você pode acessar os arquivos da pasta diretamente pelo navegador, usando o seguinte endereço padrão:
 
-4. Visualizar o Código do Grafo
+  ```bash
+  http://localhost:8000/JS/Graph/nome_do_arquivo.extensão
+  ```
 
-    Para visualizar o funcionamento do código grafo.js com o arquivo HTML, acesse:
+### 4. Visualizar o Código do Grafo
 
-    http://localhost:8000/JS/Graph/index-graph.html
+- Para visualizar o funcionamento do código **grafo.js** com o arquivo HTML, acesse:
 
-5. Finalizar o Servidor
+  ```bash
+  http://localhost:8000/JS/Graph/index-graph.html
+  ```
 
-    Para encerrar a execução do servidor, volte ao terminal onde o Python está rodando e pressione as teclas Ctrl + C.
-    Feche o navegador ou a aba onde a visualização está sendo exibida.
+### 5. Finalizar o Servidor
 
-📝 Solução de Problemas
+- Para encerrar a execução do servidor, volte ao terminal onde o Python está rodando e pressione as teclas **Ctrl + C**.
+- Feche o navegador ou a aba onde a visualização está sendo exibida.
 
-    Erro de Visualização: Caso a página web não seja exibida corretamente, verifique se o endereço que você digitou no navegador está correto.
-    Certifique-se de que o arquivo index-graph.html está localizado no diretório correto, conforme o caminho especificado no navegador.
+## 📝 Solução de Problemas
 
-👨‍💻 Autores
+- **Erro de Visualização**: Caso a página web não seja exibida corretamente, verifique se o endereço que você digitou no navegador está correto.
+- Certifique-se de que o arquivo `index-graph.html` está localizado no diretório correto, conforme o caminho especificado no navegador.
 
-    Flavio Henrique Lima Carneiro dos Santos
-    Silas Henrique de Matos Cerqueira
+## 👨‍💻 Autores
 
-🏫 Universidade
+- **Flavio Henrique Lima Carneiro dos Santos**
+- **Silas Henrique de Matos Cerqueira**
 
-Universidade Estadual do Maranhão - UEMA
-Disciplina: Estrutura de Dados Avançada
+## 🏫 Universidade
 
-readme.so
+**Universidade Estadual do Maranhão - UEMA**  
+Disciplina: **Estrutura de Dados Avançada**
